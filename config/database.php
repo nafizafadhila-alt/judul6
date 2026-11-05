@@ -9,7 +9,7 @@ class Database {
     private string $host = '127.0.0.1';
     private string $db_name = 'db_mahasiswa';
     private string $username = 'root';
-    private string $password = '';
+    private string $password = 'root';
     private int $port = 3306;
     private ?PDO $conn = null;
 
